@@ -11,6 +11,6 @@ In this project a Shiny application is developed and deployed it on Rstudio's se
 
 3.Shiny-App-Presentation.rmd: This is an R Markdown file. It’s a plain-text document that mixes regular text with chunks of R code. It is the "source code" for the presentation.
 
-4.Shiny-App-Presentation.html: This is the output. When "Knit" or render the .rmd file, it generates this HTML file. It’s a finished, browser-ready slideshow (often using frameworks like ioslides) for the Presentation at Rpubs [https://rpubs.com/swarup-jhu/Data-Products-Shinyapp-Presentation]
+4.Shiny-App-Presentation.html: This is the output. When "Knit" or render the .rmd file, it generates this HTML file. It’s a finished, browser-ready slideshow (often using frameworks like ioslides) for the Presentation at Rpubs [https://rpubs.com/swarup-jhu/Data-Product-Shinyapp-Presentation]
 
 5.Launch the Shiny App at [https://swarup-jhu.shinyapps.io/Coursera-Data-Product-Shiny-App/]
