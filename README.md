@@ -1,5 +1,5 @@
 # Data-Products-Shiny-Application
-Coursera-Developing-Data-Products-Project
+Coursera-Developing-Data-Products.
 Final project for the Developing Data Products course on Coursera. This course is part of the Data Science Specialization track offerd by Johns Hopkins University.
 In this project a Shiny application is developed and deployed it on Rstudio's servers and deployed in shinyapps.io platform. Second, Slidify is used to prepare a reproducible pitch presentation about the application.
 
