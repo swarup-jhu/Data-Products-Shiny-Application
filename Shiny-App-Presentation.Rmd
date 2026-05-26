@@ -1,0 +1,53 @@
+---
+title: "Coursera-Developing Data Products-Shinyapps Reproducible Pitch Presentation "
+author: "Swarup Kumar Roy"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Slide 1: MPG Efficiency Explorer
+MPG Efficiency Explorer is a simple presentation about predicting fuel efficiency using vehicle data.
+
+This project shows how a few car features can help estimate miles per gallon in a clear and practical way.
+
+## Slide 2: The Fuel Efficiency Problem
+With fluctuating gas prices, understanding vehicle efficiency is important for both consumers and manufacturers.
+
+Weight is often the enemy of efficiency, and engine size can also have a strong impact on fuel consumption.
+
+Our app gives an instant, data-driven prediction so users can estimate MPG without doing manual calculations.
+
+## Slide 3: Data-Driven Foundations
+The application is built on the classic `mtcars` dataset, which contains measurements for 32 automobiles.
+
+We use a small set of important variables, especially `mpg`, `wt`, and `cyl`, because they are useful for prediction.
+
+```{r}
+summary(mtcars[, c("mpg", "wt", "cyl")])
+fit <- lm(mpg ~ wt + cyl, data = mtcars)
+coef(summary(fit))
+```
+
+## Slide 4: App Features
+The MPG Efficiency Explorer is designed to be simple and interactive.
+
+It includes user-friendly sliders and buttons, visual feedback, and a quick comparison against the dataset.
+
+The model is based on standard statistical methods, so the results are easy to explain and understand.
+
+## Slide 5: Links and Hosting
+- Launch the Shiny App at [https://swarup-jhu.shinyapps.io/Coursera-Data-Product-Shiny-App/]
+- View Source Code on GitHub [https://github.com/swarup-jhu/Data-Products-Shiny-Application].
+-
+-
+-
+Thank You
+
